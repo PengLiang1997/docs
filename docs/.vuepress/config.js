@@ -43,13 +43,13 @@ module.exports = {
             title: '快速上手',
             path: '/pages/gostart/',
             collapsable: true,
-            sidebarDepth: 3,
+            sidebarDepth: 99,
             children: [
                 {
                     title: '项目首页',
                     path: '/pages/gostart/project management/',
                     collapsable: true,
-                    sidebarDepth: 3,
+                    sidebarDepth: 10,
                     children: [
                         '/pages/gostart/project management/',
                         {
@@ -75,9 +75,9 @@ module.exports = {
                           },
                         {
                             title: '项目设置',
-                            path: '/pages/gostart/project management/jurisdiction',
+                            path: '/pages/gostart/project management/Basic attribute settings',
                             collapsable: true,
-                            sidebarDepth: 3,
+                            sidebarDepth: 10,
                             children: [
                               '/pages/gostart/project management/Basic attribute settings',
                               '/pages/gostart/project management/jurisdiction',
@@ -91,31 +91,32 @@ module.exports = {
                         '/pages/gostart/project management/Project dynamics',
                         '/pages/gostart/project management/Project display',
                     ],
+                    initialOpenGroupIndex: -1
                   },
                 {
                     title: '项目文件管理',
-                    path: '/pages/gostart/project',
+                    path: '/pages/gostart/project/',
                     collapsable: true,
-                    sidebarDepth: 3,
+                    sidebarDepth: 20,
                     children: [
-                      '/pages/gostart/project',
-                      '/pages/gostart/project/upload file',
-                      '/pages/gostart/project/view file',
-                      '/pages/gostart/project/checkin file',
-                      '/pages/gostart/projectcheckout file',
-                      '/pages/gostart/project/undo checkout file',
-                      '/pages/gostart/project/Change file status',
-                      '/pages/gostart/project/attach files',
-                      '/pages/gostart/project/delete file',
-                      '/pages/gostart/project/package file',
-                      '/pages/gostart/project/share file',
-                      '/pages/gostart/project/download file',
-                      '/pages/gostart/project/search for file',
-                      '/pages/gostart/project/File list settings',
-                      '/pages/gostart/project/Collection file'
+                        '/pages/gostart/project/',
+                        '/pages/gostart/project/upload file',
+                        '/pages/gostart/project/view file',
+                        '/pages/gostart/project/checkin file',
+                        '/pages/gostart/projectcheckout file',
+                        '/pages/gostart/project/undo checkout file',
+                        '/pages/gostart/project/Change file status',
+                        '/pages/gostart/project/attach files',
+                        '/pages/gostart/project/delete file',
+                        '/pages/gostart/project/package file',
+                        '/pages/gostart/project/share file',
+                        '/pages/gostart/project/download file',
+                        '/pages/gostart/project/search for file',
+                        '/pages/gostart/project/File list settings',
+                        '/pages/gostart/project/Collection file'
                     ],
+                    initialOpenGroupIndex: -1
                   },
-                
             ],
             initialOpenGroupIndex: -1
           }

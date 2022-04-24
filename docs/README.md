@@ -4,7 +4,7 @@ heroImage: /home.png
 heroText: Hapy Team
 tagline: 用户手册
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /pages/gostart/
 features:
 - title: title1
   details: ......
