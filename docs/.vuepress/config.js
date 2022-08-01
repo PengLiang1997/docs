@@ -12,10 +12,10 @@ module.exports = {
           text: '语言',
           items: [
             { text: '简体中文', link: '/' },
-            { text: 'English', link: '/pages/' }
+            { text: 'English', link: '/home/' }
             ]
         },
-        { text: '试用环境', link: 'http://192.168.1.88/#/home' },
+        { text: '试用环境', link: 'https://hapyteam.com/' },
       ],
       sidebar: [
         {
@@ -103,7 +103,7 @@ module.exports = {
                         '/pages/gostart/project/upload file',
                         '/pages/gostart/project/view file',
                         '/pages/gostart/project/checkin file',
-                        '/pages/gostart/projectcheckout file',
+                        '/pages/gostart/project/checkout file',
                         '/pages/gostart/project/undo checkout file',
                         '/pages/gostart/project/Change file status',
                         '/pages/gostart/project/attach files',
