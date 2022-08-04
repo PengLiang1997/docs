@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        
+        {
+            "type": "node-terminal",
+            "name": "Run Script: docs:dev",
+            "request": "launch",
+            "command": "vuepress dev docs",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

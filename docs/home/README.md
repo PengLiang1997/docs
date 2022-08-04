@@ -4,7 +4,7 @@ heroImage: /home.png
 heroText: Hapy Team
 tagline: Help documentation
 actionText: go start →
-actionLink: /pages/gostart/
+actionLink: /pages_en/
 features:
 - title: title1
   details: ......
