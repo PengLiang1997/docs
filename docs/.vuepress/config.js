@@ -2,11 +2,13 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'HapyTeam'
+      title: 'HapyTeam',
+      description: 'Vue-powered Static Site Generator'
     },
-    '/home/': {
+    '/pages_en/': {
       lang: 'en-US',
-      title: 'HapyTeam'
+      title: 'HapyTeam',
+      description: 'Vue-powered Static Site Generator'
     }
   },
   title: "HapyTeam用户手册",
@@ -34,7 +36,7 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '首页', link: '/' },
-          { text: '用户手册', link: '/pages/' },
+          { text: '用户手册', link: '/pages/introduction' },
           { text: '简体中文', link: '/' },
           { text: '试用环境', link: 'https://hapyteam.com/' },
             ],
@@ -42,17 +44,17 @@ module.exports = {
             '/': [
               {
                 title: '介绍',   
-                path: '/pages/',
+                path: '/pages/introduction',
                 collapsable: true,
                 sidebarDepth: 3,
                 children: [
-                  '/pages/'
+                  '/pages/introduction'
                 ]
               },
       
               {
                 title: '产品主界面功能概述',
-                path: '/pages/',
+                path: '/pages/login',
                 collapsable: true,
                 sidebarDepth: 3,
                 children: [
@@ -165,7 +167,7 @@ module.exports = {
                           initialOpenGroupIndex: -1
                         },
                       {
-                          title: '属性模板管理',
+                          title: '属性管理',
                           path: '/pages/gostart/setup/create attribute',
                           collapsable: true,
                           sidebarDepth: 20,
@@ -177,13 +179,35 @@ module.exports = {
                           ],
                           initialOpenGroupIndex: -1
                         },
+                      {
+                          title: '用户信息',
+                          path: '/pages/gostart/User information/',
+                          collapsable: true,
+                          sidebarDepth: 20,
+                          children: [
+                            '/pages/gostart/User information/',
+                            {
+                                title: '账号信息',
+                                path: '/pages/gostart/User information/changenumber',
+                                collapsable: true,
+                                sidebarDepth: 3,
+                                children: [
+                                  '/pages/gostart/User information/changemail',
+                                  '/pages/gostart/User information/setusername',
+                                  '/pages/gostart/User information/changepassword'
+                                ],
+                              },
+                            
+                          ],
+                          initialOpenGroupIndex: -1
+                        },
                   ],
                   initialOpenGroupIndex: -1
                 }
           ],
           }
       },
-      '/home/': {
+      '/pages_en/': {
         selectText: 'language',
         label: 'English',
         ariaLabel: 'language',
@@ -196,26 +220,26 @@ module.exports = {
         },
         algolia: {},
         nav: [
-          { text: 'Home', link: '/home/' },
-          { text: 'instructions', link: '/pages_en/' },
-          { text: 'English', link: '/home/' },
+          { text: 'Home', link: '/pages_en/' },
+          { text: 'instructions', link: '/pages_en/introduction' },
+          { text: 'English', link: '/pages_en/' },
           { text: 'Trial products', link: 'https://hapyteam.com/' },
             ],
           sidebar: {
-          '/home/': [
+          '/pages_en/': [
               {
                 title: 'introduce',   
-                path: '/pages_en/',
+                path: '/pages_en/introduction',
                 collapsable: true,
                 sidebarDepth: 3,
                 children: [
-                  '/pages_en/'
+                  '/pages_en/introduction'
                 ]
               },
       
               {
                 title: 'Interface Overview',
-                path: '/pages_en/',
+                path: '/pages_en/login',
                 collapsable: true,
                 sidebarDepth: 3,
                 children: [
@@ -278,7 +302,7 @@ module.exports = {
                         },
                       {
                           title: 'Project document management',
-                          path: '/pages/gostart/project/',
+                          path: '/pages_en/gostart/project/',
                           collapsable: true,
                           sidebarDepth: 20,
                           children: [
@@ -302,7 +326,7 @@ module.exports = {
                         },
                       {
                           title: 'Life cycle management',
-                          path: '/pages/gostart/setup/',
+                          path: '/pages_en/gostart/setup/',
                           collapsable: true,
                           sidebarDepth: 20,
                           children: [

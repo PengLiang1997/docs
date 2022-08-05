@@ -1,17 +1,17 @@
-# 产品介绍
+# introduce
 
-## 一、什么是HapyTeam
+## 一、What is HapyTeam
 
-HapyTeam是......
+HapyTeam is......
 
-## 二、产品特色
+## 二、Product features
 
-HapyTeam是......
+HapyTeam is......
 
-## 三、产品架构
+## 三、Product architecture
 
-HapyTeam由......
+HapyTeam is......
 
-## 四、了解概念及术语
+## 四、Concepts and terms
 
 ......
