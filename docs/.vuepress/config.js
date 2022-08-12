@@ -37,7 +37,6 @@ module.exports = {
         nav: [
           { text: '首页', link: '/' },
           { text: '用户手册', link: '/pages/introduction' },
-          { text: '简体中文', link: '/' },
           { text: '试用环境', link: 'https://hapyteam.com/' },
             ],
           sidebar: {
@@ -208,9 +207,9 @@ module.exports = {
           }
       },
       '/pages_en/': {
-        selectText: 'language',
+        selectText: 'Language',
         label: 'English',
-        ariaLabel: 'language',
+        ariaLabel: 'Language',
         editLinkText: 'Edit this page on GitHub',
         serviceWorker: {
           updatePopup: {
@@ -221,14 +220,13 @@ module.exports = {
         algolia: {},
         nav: [
           { text: 'Home', link: '/pages_en/' },
-          { text: 'instructions', link: '/pages_en/introduction' },
-          { text: 'English', link: '/pages_en/' },
+          { text: 'Instructions', link: '/pages_en/introduction' },
           { text: 'Trial products', link: 'https://hapyteam.com/' },
             ],
           sidebar: {
           '/pages_en/': [
               {
-                title: 'introduce',   
+                title: 'Introduce',   
                 path: '/pages_en/introduction',
                 collapsable: true,
                 sidebarDepth: 3,
