@@ -1,6 +1,7 @@
 module.exports = {
-  base: "docs/",
+  base: "/",
   dest: 'dist/docs',
+  port:"8088",
   locales: {
     '/': {
       lang: 'zh-CN',
