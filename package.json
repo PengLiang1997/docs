@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-serve": "^2.0.4"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",

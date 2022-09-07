@@ -1,4 +1,6 @@
 module.exports = {
+  base: "docs/",
+  dest: 'dist/docs',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -368,4 +370,3 @@ module.exports = {
   }
 }
 }
-
